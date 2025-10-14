@@ -23,15 +23,18 @@ class Encaptulation {
 set setRoll ( int roll){
    this._roll=roll;
    //function
-  void changedFunction(){
-    if (_roll!>=0){
-      print("object");
-    }
-  }
+
 }
 // getter _price
   double? get getPrice {
    return _price!;
   }
+  void changedFunction(){
+    int a= 321;
+ }
+
 }
+
+
+
 
